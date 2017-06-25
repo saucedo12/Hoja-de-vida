@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Hoja de vida</title>
+</head>
+<body>
+	<header>
+		<svg width="600px" height="200">
+			<image xlink:href="img/lOGO.svg" width="400px" heigth="200px" ></image>
+		</svg>
+		
+	</header>
+		<h1>Hoja de vida</h1>
+		<h2>Humberto Saucedo Reza</h2>
+		<h3>29-03-1988 Cd. Juarez, Chihuahua</h3>
+	<ul>
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="educacion.html">Educaci&oacute;n</a></li>
+		<li><a href="experiencia.html">Experiencia</a></li>
+	</ul>
+
+	<h2>Educaci&oacute;n</h2>
+	<table border="1", cellpadding="0", cellspacing="0">
+		<tr>
+			<thead>
+				<th>Año</th>
+				<th>Instituci&oacute;n</th>
+				<th>Lugar</th>
+				<th>¿Culmin&oacute;?</th>
+			</thead>
+
+		</tr>
+		<tr>
+			<tbody>
+				<td>2006</td>
+				<td>Secundaria abierta</td>
+				<td>Chihuahua</td>
+				<td>si</td>
+		</tr>
+		<tr>
+				<td>2009</td>
+				<td>Instituto Comercial</td>
+				<td>Chihuahua</td>
+				<td>si</td>
+		</tr>
+		<tr>
+				<td>2012</td>
+				<td>UTCH</td>
+				<td>Chihuahua</td>
+				<td>si</td>
+		</tr>
+			</tbody>
+
+	</table>
+	<h2>Agregar Estudios</h2>
+	<form action="">
+		<p>
+			<label for="año">Año:</label>
+			<select name="año_select" id="año" required>
+				<option value="">2013</option>
+				<option value="">2014</option>
+				<option value="">2015</option>
+				<option value="">2016</option>
+				<option value="">2017</option>
+			</select>			
+		</p>
+		<p>
+			<label for="institucion">Instituci&oacute;n</label>
+			<input type="text" id="institucion" name="institucion_text" required>
+		</p>
+		<p>
+			<label for="lugar">Lugar</label>
+			<input type="text" id="lugar" name="lugar_text" required>
+		</p>
+		
+		<p>
+			<label for="culmino">¿Culmin&oacute;?</label>
+			<input type="radio" id="culmino" name="radio1" value="1">
+			si
+			<input type="radio" id="culmino" name="radio1" value="2">
+			no
+		</p>
+		<input type="submit" value="Enviar">
+
+	</form>
+	<footer>
+		<p>
+			Derechos Reservados
+		</p>
+		<ul>
+			<li><b>Correo:</b> hsr_1988@outlook.com</li>
+			<li><b>Tel:</b> 614-2-84-53-65</li>
+		</ul>
+	</footer>
+</body>
+</html>
